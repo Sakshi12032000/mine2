@@ -1,0 +1,117 @@
+    body {
+    /* background: url("http://superdevresources.com/wp-content/uploads/2014/02/pattern-background.png"); */
+    font-family: "Bree Serif", serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    /* background: linear-gradient(0deg, rgba(14,4,175,1) 0%, rgb(254, 122, 6) 100%); */
+  }
+  
+  .header{
+    text-align: center;
+    /* color: #ffffff; */
+    color: #0e0e0e;
+  }
+  
+  .quiz {
+    width: 60em;
+    /* min-height: 200px; */
+    height: 35em;
+    border-radius: 15px;
+    padding: 0px 20px 20px 20px;
+    box-shadow: 10px 10px 42px 0px #c3c2c2bf;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    background-color: #fff;
+  }
+  
+  .score-section {
+    display: flex;
+    font-size: 3.0em;
+    align-items: center;
+    color: #0e0e0e;
+    justify-content: center;
+    padding: 5em;
+  }
+  
+  /* QUESTION/TIMER/LEFT SECTION */
+  .question-section {
+    width: 100%;
+    position: relative;
+  }
+  
+  .question-count {
+    margin-bottom: 20px;
+    color: #ffff;
+  }
+  
+  .question-count span {
+    font-size: 28px;
+    color: #ffffff;
+  }
+  
+  .question-text {
+    /* margin-bottom: 12px; */
+    color: #0e0e0e;
+    font-size: 2em;
+    font-weight: 600;
+    text-align: justify;
+    margin-top: 60px;
+  }
+  .sectionBox{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    /* margin-top: 10px; */
+    background-color: #ff8000;
+    align-items: baseline;
+    margin-left: -19px;
+    margin-right: -19px;
+    padding: 12px 25px 0px 25px;
+    color: #ffff;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+  .Score-ContentBox{
+    text-align: end;
+    font-size: 1.1em;
+  }
+  
+  /* ANSWERS/RIGHT SECTION */
+  .answer-section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 25px;
+  }
+  
+  .click-btn {
+    width: 100%;
+    font-size: 1.4em;
+    color: #0e0e0e;
+    border-radius: 15px;
+    display: flex;
+    padding: 15px;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #e7e7fb;
+    border: 3px solid #234668;
+    cursor: pointer;
+  }
+  
+  
+  .click-btn:hover {
+    background-color: #f9d6b3;
+    border: 3px solid orangered;
+  }
+  
+  .click-btn:focus {
+    outline: none;
+  }
+  
+  .click-btn svg {
+    margin-right: 5px;
+  }
